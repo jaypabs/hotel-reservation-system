@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D402190-03C4-4BD2-8449-4D36F4BB4EA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Hotel_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>Hotel_Management_System</RootNamespace>
+    <AssemblyName>Hotel Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Hotel Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Hotel Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Forms\frmReports.designer.vb">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAccountReceivable.Designer.vb">
+      <DependentUpon>frmAccountReceivable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAccountReceivable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAccountReceivableList.Designer.vb">
+      <DependentUpon>frmAccountReceivableList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAccountReceivableList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBusinessSource.Designer.vb">
+      <DependentUpon>frmBusinessSource.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBusinessSource.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmChangeRoom.Designer.vb">
+      <DependentUpon>frmChangeRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmChangeRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmChargeType.Designer.vb">
+      <DependentUpon>frmChargeType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmChargeType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCheckIn.Designer.vb">
+      <DependentUpon>frmCheckIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCheckIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCheckInHistory.Designer.vb">
+      <DependentUpon>frmCheckInHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCheckInHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCheckOut.Designer.vb">
+      <DependentUpon>frmCheckOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCheckOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCompany.Designer.vb">
+      <DependentUpon>frmCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCompanyLookup.Designer.vb">
+      <DependentUpon>frmCompanyLookup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCompanyLookup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCountries.Designer.vb">
+      <DependentUpon>frmCountries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCountries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCustomerLookup.Designer.vb">
+      <DependentUpon>frmCustomerLookup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCustomerLookup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGuest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGuest.Designer.vb">
+      <DependentUpon>frmGuest.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInventoryView.Designer.vb">
+      <DependentUpon>frmInventoryView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInventoryView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOtherCharges.Designer.vb">
+      <DependentUpon>frmOtherCharges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOtherCharges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPayments.Designer.vb">
+      <DependentUpon>frmPayments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPayments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPaymentType.Designer.vb">
+      <DependentUpon>frmPaymentType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPaymentType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRatePerPeriod.Designer.vb">
+      <DependentUpon>frmRatePerPeriod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRatePerPeriod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRateType.Designer.vb">
+      <DependentUpon>frmRateType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRateType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReservation.Designer.vb">
+      <DependentUpon>frmReservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReservationList.Designer.vb">
+      <DependentUpon>frmReservationList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReservationList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRoomStatus.Designer.vb">
+      <DependentUpon>frmRoomStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRoomStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRoomType.Designer.vb">
+      <DependentUpon>frmRoomType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRoomType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRoomWindow.Designer.vb">
+      <DependentUpon>frmRoomWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRoomWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRPTAccRec.Designer.vb">
+      <DependentUpon>frmRPTAccRec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRPTAccRec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRPTCheckOut.Designer.vb">
+      <DependentUpon>frmRPTCheckOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRPTCheckOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRPTDueReservation.Designer.vb">
+      <DependentUpon>frmRPTDueReservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRPTDueReservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRPTOtherCharges.Designer.vb">
+      <DependentUpon>frmRPTOtherCharges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRPTOtherCharges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRPTRoomHistory.Designer.vb">
+      <DependentUpon>frmRPTRoomHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRPTRoomHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVehicles.Designer.vb">
+      <DependentUpon>frmVehicles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVehicles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hotelDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hotelDataSet.vb">
+      <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIDType.Designer.vb">
+      <DependentUpon>frmIDType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIDType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\mdiMain.Designer.vb">
+      <DependentUpon>mdiMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\mdiMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\modAdo.vb" />
+    <Compile Include="Modules\modFunction.vb" />
+    <Compile Include="Modules\modGlobal.vb" />
+    <Compile Include="Modules\modProcedure.vb" />
+    <Compile Include="Modules\modPublicVar.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\rpt_Account_Receivable1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Account_Receivable.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_CheckIn_Guest1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_CheckIn_Guest.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_CheckOut1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_CheckOut.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Due_Reservation1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Due_Reservation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Folio2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Folio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Guest_List1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Guest_List.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Other_Charges1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Other_Charges.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Reservation1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Reservation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Room_History1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Room_History.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmReports.resx">
+      <DependentUpon>frmReports.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAccountReceivable.resx">
+      <DependentUpon>frmAccountReceivable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAccountReceivableList.resx">
+      <DependentUpon>frmAccountReceivableList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBusinessSource.resx">
+      <DependentUpon>frmBusinessSource.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmChangeRoom.resx">
+      <DependentUpon>frmChangeRoom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmChargeType.resx">
+      <DependentUpon>frmChargeType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCheckIn.resx">
+      <DependentUpon>frmCheckIn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCheckInHistory.resx">
+      <DependentUpon>frmCheckInHistory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCheckOut.resx">
+      <DependentUpon>frmCheckOut.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCompany.resx">
+      <DependentUpon>frmCompany.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCompanyLookup.resx">
+      <DependentUpon>frmCompanyLookup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCountries.resx">
+      <DependentUpon>frmCountries.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCustomerLookup.resx">
+      <DependentUpon>frmCustomerLookup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGuest.resx">
+      <DependentUpon>frmGuest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInventoryView.resx">
+      <DependentUpon>frmInventoryView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOtherCharges.resx">
+      <DependentUpon>frmOtherCharges.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPayments.resx">
+      <DependentUpon>frmPayments.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPaymentType.resx">
+      <DependentUpon>frmPaymentType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRatePerPeriod.resx">
+      <DependentUpon>frmRatePerPeriod.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRateType.resx">
+      <DependentUpon>frmRateType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmReservation.resx">
+      <DependentUpon>frmReservation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmReservationList.resx">
+      <DependentUpon>frmReservationList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRoomStatus.resx">
+      <DependentUpon>frmRoomStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRoomType.resx">
+      <DependentUpon>frmRoomType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRoomWindow.resx">
+      <DependentUpon>frmRoomWindow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRPTAccRec.resx">
+      <DependentUpon>frmRPTAccRec.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRPTCheckOut.resx">
+      <DependentUpon>frmRPTCheckOut.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRPTDueReservation.resx">
+      <DependentUpon>frmRPTDueReservation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRPTOtherCharges.resx">
+      <DependentUpon>frmRPTOtherCharges.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRPTRoomHistory.resx">
+      <DependentUpon>frmRPTRoomHistory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVehicles.resx">
+      <DependentUpon>frmVehicles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIDType.resx">
+      <DependentUpon>frmIDType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\mdiMain.resx">
+      <DependentUpon>mdiMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Account_Receivable.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Account_Receivable1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_CheckIn_Guest.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_CheckIn_Guest1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_CheckOut.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_CheckOut1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Due_Reservation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Due_Reservation1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Folio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Folio2.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Guest_List.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Guest_List1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Old_Accounts.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Old_Accounts1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Other_Charges.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Other_Charges1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Reservation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Reservation1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Room_History.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Room_History1.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="hotelDataSet.xsc">
+      <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hotelDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>hotelDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="hotelDataSet.xss">
+      <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,863 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HotelManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:Hotel_Management_System.hotelDataSet.AccountsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Accounts_ReceivableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Business_InfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Business_SourceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Charge_TypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CompanyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CountriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CustomersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.DateTempDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.FormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.ID_TypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.InventoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Key_GeneratorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Other_ChargesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Payment_TypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.PaymentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Payments_ReceivedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_Per_PeriodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_Per_Period_TempDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_TemplatesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_TypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.ReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_RatesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_StatusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_TypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.RoomsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Transaction_TypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.TransactionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.User_PermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.VehiclesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Account_ReceivableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Available_RoomsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_CheckInDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_DateTempDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Other_ChargesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Payment_ReceivedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_PaymentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Rate_Per_PeriodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_ReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Room_RatesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Rooms_WindowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CheckIn_GuestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CheckOutDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Close_ShiftDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CustomersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Due_ReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Other_ChargesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_ReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Room_HistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.AccountsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Accounts_ReceivableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Business_InfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Business_SourceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Charge_TypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CompanyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CountriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CustomersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.DateTempRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.FormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.ID_TypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.InventoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Key_GeneratorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Other_ChargesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Payment_TypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.PaymentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Payments_ReceivedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_Per_PeriodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_Per_Period_TempRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_TemplatesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_TypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.ReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_RatesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_StatusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_TypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.RoomsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Transaction_TypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.TransactionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.User_PermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.VehiclesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Account_ReceivableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Available_RoomsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_CheckInRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_DateTempRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Other_ChargesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Payment_ReceivedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_PaymentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Rate_Per_PeriodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_ReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Room_RatesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Rooms_WindowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CheckIn_GuestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CheckOutRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Close_ShiftRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CustomersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Due_ReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Other_ChargesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_ReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Room_HistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.AccountsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Accounts_ReceivableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Business_InfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Business_SourceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Charge_TypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CompanyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CountriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.CustomersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.DateTempRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.FormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.ID_TypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.InventoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Key_GeneratorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Other_ChargesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Payment_TypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.PaymentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Payments_ReceivedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_Per_PeriodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_Per_Period_TempRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_TemplatesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Rate_TypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.ReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_RatesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_StatusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Room_TypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.RoomsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.Transaction_TypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.TransactionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.User_PermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.VehiclesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Account_ReceivableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Available_RoomsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_CheckInRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_DateTempRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Other_ChargesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Payment_ReceivedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_PaymentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Rate_Per_PeriodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_ReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Room_RatesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_Rooms_WindowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CheckIn_GuestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CheckOutRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Close_ShiftRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_CustomersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Due_ReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Other_ChargesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_ReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_rpt_Room_HistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet.qry_UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.AccountsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Accounts_ReceivableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Business_InfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Business_SourceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Charge_TypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.CompanyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.CountriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.CustomersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.DateTempTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.FormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.ID_TypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.InventoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Key_GeneratorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Other_ChargesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Payment_TypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.PaymentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Payments_ReceivedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Rate_Per_PeriodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Rate_Per_Period_TempTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Rate_TemplatesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Rate_TypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.ReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Room_RatesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Room_StatusTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Room_TypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.RoomsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.Transaction_TypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.TransactionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.User_PermissionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.VehiclesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_Account_ReceivableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_Available_RoomsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_CheckInTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_DateTempTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_Other_ChargesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_Payment_ReceivedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_PaymentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_Rate_Per_PeriodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_ReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_Room_RatesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_Rooms_WindowTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_rpt_CheckIn_GuestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_rpt_CheckOutTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_rpt_Close_ShiftTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_rpt_CustomersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_rpt_Due_ReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_rpt_Other_ChargesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_rpt_ReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_rpt_Room_HistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.qry_UserTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.hotelDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.hotelDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.hotelDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.hotelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.hotelDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.hotelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.hotelDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.hotelDataSetTableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.hotelDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.hotelDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
